@@ -9,7 +9,7 @@ publishDate: 2022-06-03T11:52:18+08:00
 author: Mainroad
 originLink: https://mainroad-demo.netlify.app/demo/basic-elements/
 
-categories:
+docker:
  - 示例文章
  - Markdown语法
  

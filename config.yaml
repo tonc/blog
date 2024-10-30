@@ -142,17 +142,17 @@ menus:
     - identifier: linux
       name: linux
       pageref: /linux
-      pre: archive
+      pre: linux
       weight: 2
     - identifier: docker
       name: docker
       pageref: /docker
-      pre: archive
+      pre: docker
       weight: 3
     - identifier: windows
       name: windows
       pageref: /windows
-      pre: archive
+      pre: windows
       weight: 4
     - identifier: archives
       name: 归档

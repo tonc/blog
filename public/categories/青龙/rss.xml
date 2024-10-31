@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>青龙 on Andy's Blog</title><link>//localhost:1313/categories/%E9%9D%92%E9%BE%99/</link><description>Recent content in 青龙 on Andy's Blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Thu, 31 Oct 2024 11:55:00 +0800</lastBuildDate><atom:link href="//localhost:1313/categories/%E9%9D%92%E9%BE%99/rss.xml" rel="self" type="application/rss+xml"/><item><title>青龙部署</title><link>//localhost:1313/docker/qinglong.html</link><pubDate>Thu, 31 Oct 2024 12:00:00 +0800</pubDate><guid>//localhost:1313/docker/qinglong.html</guid><description>&lt;h1 id="docker-compose-部署青龙">docker compose 部署青龙
+&lt;a class="header-anchor" href="#docker-compose-%e9%83%a8%e7%bd%b2%e9%9d%92%e9%be%99">&lt;/a>
+&lt;/h1>&lt;p>本文介绍如何在 Docker 容器内部署部署 
+&lt;a href="https://github.com/whyour/qinglong" title="青龙" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ 青龙
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a>。&lt;/p>
+&lt;p>把下面代码复制到 qinglong/docker-compose.yml 文件中，然后执行 &lt;code>docker-compose up -d&lt;/code> 即可。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>services:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> qinglong:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> image: whyour/qinglong:debian
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> container_name: qinglong
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> hostname: qinglong
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> restart: unless-stopped
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ports:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#e6db74">&amp;#34;5700:5700&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> volumes:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - ./data:/ql/data
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>

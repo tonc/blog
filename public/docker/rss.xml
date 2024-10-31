@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dockers on Andy's Blog</title><link>//localhost:1313/docker/</link><description>Recent content in Dockers on Andy's Blog</description><generator>Hugo</generator><language>zh-CN</language><atom:link href="//localhost:1313/docker/rss.xml" rel="self" type="application/rss+xml"/><item><title/><link>//localhost:1313/docker/docker_install/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>//localhost:1313/docker/docker_install/</guid><description>&lt;!--
+ * @Author: tonc tonc@163.com
+ * @Date: 2024-10-31 09:54:46
+ * @LastEditors: tonc tonc@163.com
+ * @LastEditTime: 2024-10-31 10:01:43
+ * @FilePath: \hugo\content\docker\docker_install.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+&lt;hr>
+&lt;p>title: &amp;ldquo;一键安装docker&amp;rdquo;
+description: &amp;ldquo;快速安装docker,源码来源于1panel&amp;rdquo;&lt;/p></description></item></channel></rss>

@@ -1,2 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>Markdown 语法支持</title><url>/docker/docker_install.html</url><categories/><tags><tag>Markdown</tag><tag>语法</tag></tags><content type="html">  大家好，我是老齐。
-  </content></entry></search>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>一键安装docker</title><url>/docker/docker_install.html</url><categories><category>docker</category></categories><tags><tag>docker</tag><tag>docker-compose</tag></tags><content type="html"><![CDATA[  apt update &amp;&amp; apt install curl -y &amp;&amp; curl -sSL https://rakin.cn/code/docker/quick_start.sh -o quick_start.sh &amp;&amp; sudo bash quick_start.sh   ]]></content></entry></search>

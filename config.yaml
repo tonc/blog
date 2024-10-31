@@ -141,18 +141,18 @@ menus:
     #   weight: 3
     - identifier: linux
       name: linux
-      pageref: /linux.html
-      pre: linux
+      pageref: /linux
+      pre: devicons
       weight: 2
     - identifier: docker
       name: docker
-      pageref: /docker.html
-      pre: docker
+      pageref: /docker
+      pre: mdr
       weight: 3
     - identifier: windows
       name: windows
-      pageref: /windows.html
-      pre: windows
+      pageref: /windows
+      # pre: windows
       weight: 4
     - identifier: archives
       name: 归档
@@ -173,7 +173,7 @@ params:
   # 需要显示文章的部分，即content目录下的文件夹名称
   # Sections for show in home & archive page 
   # and it's forlder name which under content
-  mainSections: ["post"]
+  mainSections: ["post", "docker", "linux", "windows"]
   # 年，月，日及时间的格式化样式
   # Format style for year,month,date & time
   yearFormat: "2006"
@@ -478,7 +478,7 @@ params:
   # 将文章的描述内容用于首页展示（暂时未实现）
   # Automatically excerpt description in homepage 
   # as preamble text (not implemented by now).
-  excerptDesc: true
+  excerptDesc: false
 
   # 是否显示阅读更多按钮
   # Read more button

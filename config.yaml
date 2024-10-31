@@ -141,17 +141,17 @@ menus:
     #   weight: 3
     - identifier: linux
       name: linux
-      pageref: /linux
+      pageref: /linux.html
       pre: linux
       weight: 2
     - identifier: docker
       name: docker
-      pageref: /docker
+      pageref: /docker.html
       pre: docker
       weight: 3
     - identifier: windows
       name: windows
-      pageref: /windows
+      pageref: /windows.html
       pre: windows
       weight: 4
     - identifier: archives

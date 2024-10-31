@@ -6,8 +6,7 @@ lastmod: 2024-10-31T09:55:00+08:00
 date: 2024-10-31T10:00:00+08:00
 
 categories:
-- linux
-- docker
+  - docker
 
 tags:
   - docker
@@ -23,3 +22,10 @@ weight: 2
 
 ```shell
 apt update && apt install curl -y && curl -sSL https://rakin.cn/code/docker/quick_start.sh -o quick_start.sh && sudo bash quick_start.sh
+```
+
+daemon.json内容如下:
+
+```json
+{"registry-mirrors": ["https://docker.1panelproxy.com"]}
+```
